@@ -1,0 +1,36 @@
+
+body {
+    padding: 3%;
+}
+
+#foto {
+    float: left;
+    height: 280px;
+    width: 300px;
+    padding: 10px;
+    background-color: blue;
+}
+
+.imagecontainer {
+    height: 300px;
+    position: relative;
+
+}
+
+.descricao {
+    position: absolute;
+    top: 36px;
+    right: 500px;
+    font-size: xx-large;
+    text-align: center;
+}
+
+.meuNome {
+
+    text-align: center;
+}
+
+ul li:nth-child(odd) {
+    background-color: aqua;
+    
+}
